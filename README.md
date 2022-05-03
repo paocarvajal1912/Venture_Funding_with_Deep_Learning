@@ -6,11 +6,11 @@ Several Deep Learning models are applied and compared in terms of performance. P
 
 The project uses the following technologies:
 
-* *Pandas, NumPy* for general programming in Jupyter Lab
+* `Pandas`, `NumPy` for general programming in Jupyter Lab
 
-* *TensorFlow* and *Keras* for the construction and evaluation of the Deep Learning models. Particularly *Sequential* for the fitting, compilation and evaluation, and *Dense* for the layer construction. We use a version above 2.0.0.
+* `TensorFlow` and `Keras` for the construction and evaluation of the Deep Learning models. Particularly *Sequential* for the fitting, compilation and evaluation, and *Dense* for the layer construction. We use a version above 2.0.0.
 
-* *SKLearn* for the preprocessing of the data, particularly *StandardScaler* and *MinMaxScaler* for standarization and normalization; *OneHotEncoder* for treatment of the categorical variables, and *train_test_split* for the separation of the sample in a set to train and a set to validate the model.
+* `SKLearn` for the preprocessing of the data, particularly `StandardScaler` and `MinMaxScaler` for standarization and normalization; `OneHotEncoder` for treatment of the categorical variables, and `train_test_split` for the separation of the sample in a set to train and a set to validate the model.
 
 
 ## Instalation Guide
@@ -40,7 +40,7 @@ https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 The table of final results of all models is as in the table below, with a very small description of the variation on ther Observation columns. For the details of the model construction, you must go to the model file itself.
 
-![Final_Results](images/results.png)
+![Final_Results](images/results_baseline.png)
 
 
 
