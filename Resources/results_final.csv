@@ -16,7 +16,7 @@
 0,9/26/21,11,"Recoded data, in between geometric/arithmetic, MinMaxScaler",0.54547137,0.740174949,2,108,1,43,20,50,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
 ,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics
 0,9/26/21,2,"Adding a hidden layer, increasing epochs",0.557831407,0.730845451,3,116,1,22,10,80,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
-Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics,
+,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics
 0,9/26/21,10,"Recoded data, geometric/aritmetic, MinMaxScaler",0.548608422,0.735043705,2,108,1,33,12,50,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
 ,Date,Model,Observations,Loss,Accuracy,Hidden layers,Input Features,Output Neurons,Neurons in Hidden Layers1,Neurons in Hidden Layers2,Epochs,Activation Hidden layer 1,Activation Hidden layer 2,Activation Output layer 1,loss,optimizer,metrics
 0,9/26/21,0,"Original model, geometric mean for number of layers",0.552430511,0.728746355,2,116,1,11,4,50,relu,relu,sigmoid,binary_crossentropy,adam,accuracy
