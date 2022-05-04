@@ -1,19 +1,32 @@
 # Venture Funding with Deep Learning
-This projects aims to predict the success or fail of loans provided to Venture Capital companies. 
-Several Deep Learning models are applied and compared in terms of performance. Partf of the model that have been manipulated include the number of layers, the activation functions, the recoding of the data, the standarization versus normalization of the data in preparation, the number of epochs, and the methods applied to categorical data.
+
+Alphabet Soup venture capital needs assistance to allocate funds. Its business team receives many funding applications from startups every day. This team needs to create a model that predicts whether applicants will be successful if Alphabet Soup funds them.
+
+The business team provided data from more than 34,000 organizations that have received funding from Alphabet Soup over the years. Using machine learning and neural networks, we create a binary classifier model that will predict whether an applicant will become a successful business. The data contains various information about these businesses, including whether or not they ultimately became successful.
+
+We use deep learning, and the best-fitted model can predict about 3 out of 4 outcomes correctly (74% accuracy). 
+
+In this project, we tune the model by adjusting several parameters. We have kept the alternative models and present a comparison in terms of accuracy. We generated 11 models, adjusting for:
+
+* the number of layers, 
+* the activation functions, 
+* the recoding of the data, 
+* the standardization versus normalization of the data in preparation, 
+* the number of epochs, and 
+* the methods applied to categorical data.
 
 ## Technologies
 
 The project uses the following technologies:
 
-* `Pandas`, `NumPy` for general programming in Jupyter Lab
+* `Pandas,` `NumPy` for general programming in Jupyter Lab
 
-* `TensorFlow` and `Keras` for the construction and evaluation of the Deep Learning models. Particularly *Sequential* for the fitting, compilation and evaluation, and *Dense* for the layer construction. We use a version above 2.0.0.
+* `TensorFlow` and `Keras` for the construction and evaluation of the Deep Learning models. Particularly *Sequential* for the fitting, compilation, and evaluation, and *Dense* for the layer construction. We use a version above 2.0.0.
 
-* `SKLearn` for the preprocessing of the data, particularly `StandardScaler` and `MinMaxScaler` for standarization and normalization; `OneHotEncoder` for treatment of the categorical variables, and `train_test_split` for the separation of the sample in a set to train and a set to validate the model.
+* `SKLearn` for the preprocessing of the data, particularly `StandardScaler` and `MinMaxScaler` for standardization and normalization; `OneHotEncoder` for treatment of the categorical variables, and `train_test_split` for the separation of the sample in a set to train and a set to validate the model.
 
 
-## Instalation Guide
+## Installation Guide
 The file is a jupyter notebook. If you don't have jupyter lab, you can install it following the instruction here:
 
 https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
@@ -28,21 +41,19 @@ If you don't have installed TensorFlow, you can run the following command
 
 ### Usage
 
-The main file is `venture_funding_with_deep_learning.ipynb`, which contains the original model. Others similarly called files are different alternative models (such as `1venture_funding_with_deep_learning_Alternative.ipynb`, `2venture_funding_with_deep_learning_Alternative.ipynb`and so on).
+The main file is `Main_venture_funding_with_deep_learning.ipynb`, which contains the original model, the results, and the conclusions. Others similarly called files are different alternative models (such as `1venture_funding_with_deep_learning_Alternative.ipynb`, `2venture_funding_with_deep_learning_Alternative.ipynb` and so on).
 
-Results and comparison are done on the original model file.
+Results and comparisons are displayed in the main file as well.
 
 These are jupyter notebooks with a pre-run code. You can go through it and see code as well as results. 
 
-If you look to reuse the code, and do not have experience on jupyter lab, please refer:
+If you want to reuse the code and do not have experience in jupyter lab, please refer:
 https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 
-The table of final results of all models is as in the table below, with a very small description of the variation on ther Observation columns. For the details of the model construction, you must go to the model file itself.
+The table of final results of all models is as in the table below, with a concise description of the variation on the Observation columns. For the model construction details, you must go to the model file itself.
 
 ![Final_Results](images/results_baseline.png)
-
-
 
 
 
@@ -54,5 +65,4 @@ LinkedIn profile: https://www.linkedin.com/in/paolacarvajal/
 
 
 ## License
-This project uses a MIT license. This license allows you to use the licensed material at your discretion, as long as the original copyright and license are included in your work files. This license does not contain a patent grant,  and liberate the authors of any liability from the use of this code.
-
+This project uses an MIT license. This license allows you to use the licensed material at your discretion, as long as the original copyright and license are included in your work files. This license does not contain a patent grant and liberates the authors of any liability from using this code.
